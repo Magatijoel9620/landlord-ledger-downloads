@@ -6,7 +6,8 @@ flutter build apk --release
 
 cp build/app/outputs/flutter-apk/app-release.apk landlord-ledger.apk
 
-gh release create vX.Y.Z landlord-ledger.apk \
+
+gh release create v1.3.0 landlord-ledger.apk \
   --repo Magatijoel9620/landlord-ledger-downloads \
-  --title "Landlord Ledger vX.Y.Z" \
-  --notes "Describe changes and fixes."
+  --title "Landlord Ledger v1.3.0" \
+  --notes "Deep link fixed."
